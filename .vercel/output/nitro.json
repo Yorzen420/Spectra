@@ -14,7 +14,7 @@
     "preview": "npx srvx --static ../../static ./functions/__server.func/index.mjs",
     "deploy": "npx vercel deploy --prebuilt"
   },
-  "config": {
+  "config": {  // config settings via vercel domain
     "vercel": {
       "skewProtection": false,
       "cronHandlerRoute": "/_vercel/cron",
