@@ -40,11 +40,17 @@ Instead of simply placing an image inside a template, Spectra lets you build the
 </p>
 
 <p align="center">
-  <video src="./media/spectra-card.webm" autoplay loop muted playsinline width="500"></video>
+  <a href="https://spectra-five-jade.vercel.app/">
+    <img src="./screenshots/spectra-preview.gif" width="700" alt="Spectra card preview">
+  </a>
 </p>
 
 <p align="center">
-  <img src="screenshots/app-builder-built.png" alt="Spectra card creation studio" width="900">
+  <em>Interactive holographic card effects, foil, diffraction, reflections, and layered materials.</em>
+</p>
+
+<p align="center">
+  <img src="./screenshots/app-builder-built.png" width="900" alt="Spectra card creation studio">
 </p>
 
 <p align="center">
