@@ -40,8 +40,9 @@ Instead of simply placing an image inside a template, Spectra lets you build the
 </p>
 
 <p align="center">
-  <img src="./media/spectra-card.gif" width="45%" alt="Spectra card example 1">
-  <img src="./media/spectra-card-2.gif" width="45%" alt="Spectra card example 2">
+  <img src="./media/spectra-card.gif" width="30%" alt="Spectra card example 1">
+  <img src="./media/spectra-card-2.gif" width="30%" alt="Spectra card example 2">
+  <img src="./media/spectra-card-3.gif" width="30%" alt="Spectra card example 3">
 </p>
 
 <p align="center">
