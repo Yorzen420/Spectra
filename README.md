@@ -19,7 +19,7 @@ Instead of simply placing an image inside a template, Spectra lets you build the
 ## ✨ Preview
 
 <p align="center">
-  <img src="./media/spectra-logo.gif" width="580" alt="Spectra">
+  <img src="./media/spectra-logo-new.gif" width="580" alt="Spectra">
 </p>
 
 <h1 align="center">Spectra</h1>
