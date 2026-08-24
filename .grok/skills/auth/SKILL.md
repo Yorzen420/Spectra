@@ -36,7 +36,7 @@ sign-in (`references/prewired-and-env.md`, `references/grok-identity.md`).
 non-auth app renders without a signed-in visitor — in dev and preview only. The
 deployed flag is the deployer's (today it always sets `"true"`), so deployed,
 `requireUserId` rejects every visitor. An app without sign-in therefore uses
-neither `authMiddleware` nor `requireUserId`.
+neither `authMiddleware` nor `requireUserId`. yzn-scripts
 
 Everything is **preinstalled and pre-wired in `src/lib/auth/`** — do not
 `npm install` anything or reach for another auth library. `better-auth` is the
