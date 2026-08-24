@@ -19,6 +19,31 @@ Instead of simply placing an image inside a template, Spectra lets you build the
 ## ✨ Preview
 
 <p align="center">
+  <img src="./screenshots/spectra-logo.png" width="180" alt="Spectra">
+</p>
+
+<h1 align="center">Spectra</h1>
+
+<p align="center">
+  <strong>Design cards that catch the light.</strong>
+</p>
+
+<p align="center">
+  A browser-based card creation studio focused on holographic foil,
+  diffraction grating, iridescence, reflection, and layered materials.
+</p>
+
+<p align="center">
+  <a href="https://spectra-five-jade.vercel.app/">✦ Open Spectra</a>
+  ·
+  <a href="https://github.com/Yorzen420/Spectra">GitHub</a>
+</p>
+
+<p align="center">
+  <video src="./media/spectra-card.webm" autoplay loop muted playsinline width="500"></video>
+</p>
+
+<p align="center">
   <img src="screenshots/app-builder-built.png" alt="Spectra card creation studio" width="900">
 </p>
 
