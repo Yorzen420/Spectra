@@ -531,10 +531,12 @@ export class CardRenderer {
 
     let az = L.key.azimuth;
     let el = L.key.elevation;
+    /*
     if (L.followMouse && !this.pointer.down) {
       az += this.pointer.x * 0.9;
       el += this.pointer.y * 0.45;
     }
+    */
     u.uKeyDir.value.copy(dirFromSpherical(az, el));
     u.uKeyCol.value.set(L.key.color);
     u.uKeyInt.value = L.key.enabled ? L.key.intensity : 0;
