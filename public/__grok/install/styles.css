@@ -69,7 +69,7 @@ img {
   overflow-x: hidden;
   padding:
     calc(20px + env(safe-area-inset-top))
-    32px
+    33px
     calc(24px + env(safe-area-inset-bottom));
 }
 
