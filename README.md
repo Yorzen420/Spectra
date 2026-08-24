@@ -41,7 +41,7 @@ Instead of simply placing an image inside a template, Spectra lets you build the
 
 <p align="center">
   <a href="https://spectra-five-jade.vercel.app/">
-    <img src="./screenshots/spectra-preview.gif" width="700" alt="Spectra card preview">
+    <img src="./media/spectra-card.webm" width="700" alt="Spectra card preview">
   </a>
 </p>
 
@@ -172,7 +172,8 @@ Explore how the material behaves under different illumination.
 ### Example — Full Card
 
 <p align="center">
-  <img src="screenshots/c1.png" alt="Spectra card example" width="700">
+  <img src="./media/spectra-card.gif" width="45%" alt="Spectra card example 1">
+  <img src="./media/spectra-card.webm" width="45%" alt="Spectra card example 2">
 </p>
 
 ---
