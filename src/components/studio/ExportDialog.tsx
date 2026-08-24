@@ -30,7 +30,8 @@ export function ExportDialog({
     const vh = rec?.height ?? 800;
     useStudio.setState({ exporting: true, exportProgress: 0, exportError: null });
     try {
-      await runExport(renderer, exp, vw, vh, (pct, label) => {
+    const card = useStudio.getState().card;
+    await runExport(renderer, exp, card, vw, vh, (pct, label) => {
         useStudio.setState({ exportProgress: pct, toast: label });
       });
       useStudio.setState({ toast: "Export complete", exportOpen: false });
