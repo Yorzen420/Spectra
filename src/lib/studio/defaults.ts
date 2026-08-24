@@ -190,7 +190,7 @@ export function defaultLighting(): LightingSettings {
     specularLight: 1,
     envIntensity: 0.5,
     shadowStrength: 0.45,
-    followMouse: true,
+    followMouse: false,
   };
 }
 
