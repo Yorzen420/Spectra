@@ -40,13 +40,12 @@ Instead of simply placing an image inside a template, Spectra lets you build the
 </p>
 
 <p align="center">
-  <a href="https://spectra-five-jade.vercel.app/">
-    <img src="./media/spectra-card.webm" width="700" alt="Spectra card preview">
-  </a>
+  <img src="./media/spectra-card.gif" width="45%" alt="Spectra card example 1">
+  <img src="./media/spectra-card-2.gif" width="45%" alt="Spectra card example 2">
 </p>
 
 <p align="center">
-  <em>Interactive holographic card effects, foil, diffraction, reflections, and layered materials.</em>
+  <em>Different cards, materials, and optical effects created with Spectra.</em>
 </p>
 
 <p align="center">
@@ -173,7 +172,7 @@ Explore how the material behaves under different illumination.
 
 <p align="center">
   <img src="./media/spectra-card.gif" width="45%" alt="Spectra card example 1">
-  <img src="./media/spectra-card.webm" width="45%" alt="Spectra card example 2">
+  <img src="./media/spectra-card-2.gif" width="45%" alt="Spectra card example 2">
 </p>
 
 ---
