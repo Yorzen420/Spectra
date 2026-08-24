@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Spectra",
+      "hasCanvas": true,
+      "bodyTextLen": 1278,
+      "bodyTextHash": "58a24845037b49a3c598c4ea565b0a8f9f6e4a902008519764215c6516116bb2",
+      "bodyTextPrefix": "SPECTRA Holographic Card Studio New Presets Classic Holographic ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Spectra",
+      "hasCanvas": true,
+      "bodyTextLen": 118,
+      "bodyTextHash": "6508685ab0d974f4493861ebfc0b1d31e301c5170e3407e53926660e8b89feae",
+      "bodyTextPrefix": "SPECTRA New Draft High Ultra Advanced Export DRAG TO ORBIT · SCR",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
