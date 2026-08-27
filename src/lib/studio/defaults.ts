@@ -222,7 +222,7 @@ export function defaultLayers(): Layer[] {
     mk("scratches", "Scratches", "scratches", 0.75),
     mk("gloss", "Gloss", "gloss"),
     mk("lighting", "Lighting", "lighting"),
-    mk("border", "Border", "border", 0.01),
+    mk("border", "Border", "border", 0)
   ];
 }
 
