@@ -199,10 +199,10 @@ function defaultCard() {
 	return {
 		widthMm: 63,
 		heightMm: 88,
-		cornerRadius: .045,
-		borderThickness: .035,
+		cornerRadius: 0,
+		borderThickness: 0,
 		borderStyle: "foil",
-		depth: .028,
+		depth: .008,
 		background: "#0b0d12",
 		edgeColor: "#c9d0da",
 		edgeMetal: .85
@@ -360,7 +360,6 @@ function defaultLayers() {
 	return [
 		mk("base", "Card Base", "base"),
 		mk("artwork", "Artwork", "artwork"),
-		mk("border", "Border", "border"),
 		mk("foil", "Foil", "foil", .85),
 		mk("diffraction", "Diffraction", "diffraction", .9),
 		mk("holographic", "Holographic Pattern", "holographic"),
@@ -369,7 +368,8 @@ function defaultLayers() {
 		mk("texture", "Texture", "texture", .8),
 		mk("scratches", "Scratches", "scratches", .75),
 		mk("gloss", "Gloss", "gloss"),
-		mk("lighting", "Lighting", "lighting")
+		mk("lighting", "Lighting", "lighting"),
+		mk("border", "Border", "border", 0)
 	];
 }
 function defaultTextures() {
