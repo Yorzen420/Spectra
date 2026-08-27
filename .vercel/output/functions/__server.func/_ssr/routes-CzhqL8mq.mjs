@@ -4400,7 +4400,7 @@ void main() {
   col += lighting * uReflect * 0.12 * metalTint;
 
   // border treatment
-  float borderMask = 1.0 - smoothstep(-uBorder * 3.5, -uBorder * 0.4, sdf);
+  float borderMask = 0.0 - smoothstep(-uBorder * 3.5, -uBorder * 0.4, sdf);
   vec3 borderCol = uEdgeCol;
   if (uBorderStyle < 0.5) {
     borderCol = mix(uEdgeCol, holoSpec * 1.4 + gratingColor(uv * 1.8, viewT, L), 0.65);
