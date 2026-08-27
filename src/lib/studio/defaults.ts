@@ -213,7 +213,7 @@ export function defaultLayers(): Layer[] {
   return [
     mk("base", "Card Base", "base"),
     mk("artwork", "Artwork", "artwork"),
-    mk("border", "Border", "border"),
+    mk("border", "Border", "border", 0),
     mk("foil", "Foil", "foil", 0.85),
     mk("diffraction", "Diffraction", "diffraction", 0.9),
     mk("holographic", "Holographic Pattern", "holographic"),
