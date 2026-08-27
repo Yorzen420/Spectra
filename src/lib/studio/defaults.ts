@@ -40,10 +40,10 @@ export function defaultCard(): CardSettings {
   return {
     widthMm: 63,
     heightMm: 88,
-    cornerRadius: 0.045,
-    borderThickness: 0.035,
+    cornerRadius: 0,
+    borderThickness: 0,
     borderStyle: "foil",
-    depth: 0.028,
+    depth: 0.008,
     background: "#0b0d12",
     edgeColor: "#c9d0da",
     edgeMetal: 0.85,
@@ -213,7 +213,6 @@ export function defaultLayers(): Layer[] {
   return [
     mk("base", "Card Base", "base"),
     mk("artwork", "Artwork", "artwork"),
-    mk("border", "Border", "border", 0),
     mk("foil", "Foil", "foil", 0.85),
     mk("diffraction", "Diffraction", "diffraction", 0.9),
     mk("holographic", "Holographic Pattern", "holographic"),
@@ -223,6 +222,7 @@ export function defaultLayers(): Layer[] {
     mk("scratches", "Scratches", "scratches", 0.75),
     mk("gloss", "Gloss", "gloss"),
     mk("lighting", "Lighting", "lighting"),
+    mk("border", "Border", "border", 0.01),
   ];
 }
 
@@ -326,7 +326,7 @@ export function defaultProject(): StudioProject {
     textures: defaultTextures(),
     animation: defaultAnimation(),
     camera: defaultCamera(),
-    quality: "high",
+    quality: "ultra",
     advanced: false,
   };
 }
